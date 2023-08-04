@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.color-fliper-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+
+.bg-color-container {
+    text-align: center;
+}
+
+.bg-color-container h2 {
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+.bg-color-container h2 span{
+    color: rgb(126 167 203);
+}
+.bg-color-container .btn {
+    margin-top: 20px;
+    padding: 5px 17px;
+    border: 1px solid rgb(126 167 203);
+    cursor: pointer;
+}
